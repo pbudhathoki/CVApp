@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-pngs-31:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_ic_github.png.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/ic_github.png"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_fragment_about_me.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_about_me.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_ic_call.jpg.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/ic_call.jpg"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_profilepic.png.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/profilepic.png"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_ic_add.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_fragment_home.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_activity_web.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/activity_web.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/menu_menu.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/menu/menu.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_ic_email.jpg.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/ic_email.jpg"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_ic_linkedin.png.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/ic_linkedin.png"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_fragment_main.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_ic_linkedin_circular.png.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/ic_linkedin_circular.png"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_item_certification.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/item_certification.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_fragment_work.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_work.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_ic_pdf.png.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/ic_pdf.png"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_ic_telegram.png.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/ic_telegram.png"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_fragment_contact.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_contact.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/drawable_coverpic.jpeg.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/drawable/coverpic.jpeg"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_item_education.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/item_education.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/layout_item_work.xml.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/item_work.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    }
+]

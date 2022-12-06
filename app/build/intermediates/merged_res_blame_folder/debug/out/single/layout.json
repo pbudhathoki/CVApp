@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/item_certification.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/item_certification.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/activity_login.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/item_education.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/item_education.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/fragment_work.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_work.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/fragment_about_me.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_about_me.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/fragment_home.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/fragment_main.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/activity_web.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/activity_web.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/item_work.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/item_work.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/fragment_contact.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/fragment_contact.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.example.cvbuilderapplicationassignment6.app-main-38:/layout/activity_main.xml"
+    }
+]
