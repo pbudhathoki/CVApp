@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.cvbuilderapplicationassignment6",
+  "applicationId": "com.example.cvbuilderapp",
   "variantName": "debug",
   "elements": []
 }

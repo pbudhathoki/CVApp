@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-34:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.example.cvbuilderapp-mergeDebugResources-34:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\puska\\OneDrive\\Desktop\\MIU CourseWork Related\\Mobile Device Programming\\Assignments\\cs473de-mdp\\CVBuilder\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "C:\\Users\\puska\\OneDrive\\Desktop\\CVBuilder\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

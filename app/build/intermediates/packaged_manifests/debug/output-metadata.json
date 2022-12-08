@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.cvbuilderapplicationassignment6",
+  "applicationId": "com.example.cvbuilderapp",
   "variantName": "debug",
   "elements": [
     {

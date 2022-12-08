@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.cvbuilderapplicationassignment6.app-mergeDebugResources-34:/values-sk/values-sk.xml",
+            "outputFile": "com.example.cvbuilderapp-mergeDebugResources-34:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\puska\\.gradle\\caches\\transforms-3\\685980b024686d78956b91eec9b43f3b\\transformed\\appcompat-1.5.1\\res\\values-sk\\values-sk.xml",

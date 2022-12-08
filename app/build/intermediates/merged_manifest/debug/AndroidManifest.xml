@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cvbuilderapplicationassignment6"
+    package="com.example.cvbuilderapp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -26,14 +26,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.CVBuilderApplicationAssignment6" >
         <activity
-            android:name="com.example.cvbuilderapplicationassignment6.WebActivity"
+            android:name="com.example.cvbuilderapp.WebActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.cvbuilderapplicationassignment6.LoginActivity"
+            android:name="com.example.cvbuilderapp.LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login" >
             <intent-filter>
@@ -43,7 +43,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.cvbuilderapplicationassignment6.MainActivity"
+            android:name="com.example.cvbuilderapp.MainActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
@@ -52,7 +52,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.cvbuilderapplicationassignment6.androidx-startup"
+            android:authorities="com.example.cvbuilderapp.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
