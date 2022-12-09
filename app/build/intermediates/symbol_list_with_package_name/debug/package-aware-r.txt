@@ -1272,6 +1272,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue_500
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1831,8 +1832,6 @@ color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color purple_200
-color purple_500
-color purple_700
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1850,6 +1849,7 @@ color teal_700
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow_700
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2837,8 +2837,8 @@ id east
 id edit_query
 id education_recycler_view
 id elastic
+id email_contact
 id email_edit_text
-id email_ll
 id embed
 id end
 id endToStart
@@ -2868,7 +2868,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
-id github_ll
+id github_contact
 id glide_custom_view_target_tag
 id gmail_menu
 id gone
@@ -2909,7 +2909,7 @@ id line1
 id line3
 id linear
 id linked_in_menu
-id linkedin_ll
+id linkedin_contact
 id listMode
 id list_item
 id location_text_view
@@ -2941,7 +2941,7 @@ id matrix
 id message
 id middle
 id mini
-id mobile_ll
+id mobile_contact
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3022,7 +3022,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id resume_ll
+id resume_contact
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3314,7 +3314,7 @@ layout fragment_contact
 layout fragment_home
 layout fragment_main
 layout fragment_work
-layout item_certification
+layout item_achievment
 layout item_education
 layout item_work
 layout m3_alert_dialog

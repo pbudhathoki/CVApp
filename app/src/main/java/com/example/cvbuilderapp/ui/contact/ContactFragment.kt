@@ -24,11 +24,11 @@ class ContactFragment : Fragment(R.layout.fragment_contact), OnClickListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        phoneLL = view.findViewById(R.id.mobile_ll)
-        emailLL = view.findViewById(R.id.email_ll)
-        linkedInLL = view.findViewById(R.id.linkedin_ll)
-        githubLL = view.findViewById(R.id.github_ll)
-        resumeLL = view.findViewById(R.id.resume_ll)
+        phoneLL = view.findViewById(R.id.mobile_contact)
+        emailLL = view.findViewById(R.id.email_contact)
+        linkedInLL = view.findViewById(R.id.linkedin_contact)
+        githubLL = view.findViewById(R.id.github_contact)
+        resumeLL = view.findViewById(R.id.resume_contact)
 
         phoneLL.setOnClickListener(this)
         emailLL.setOnClickListener(this)
@@ -38,20 +38,20 @@ class ContactFragment : Fragment(R.layout.fragment_contact), OnClickListener {
 
     }
 
-    private fun onMobileClicked() {
+    private fun onPhoneClicked() {
         val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "+1(641)819-2477"))
         context?.startActivity(intent)
     }
 
-    private fun onEmailClicked() {
+    private fun onEmailContactClicked() {
         sendEmail()
     }
 
-    private fun onLinkedInClicked() {
+    private fun onLinkedInContactClicked() {
         openWebUrl(getString(R.string.linkedin_profile))
     }
 
-    private fun onGithubClicked() {
+    private fun onGithubContactClicked() {
         openWebUrl(getString(R.string.github_profile))
     }
 
@@ -67,11 +67,11 @@ class ContactFragment : Fragment(R.layout.fragment_contact), OnClickListener {
 
     override fun onClick(view: View?) {
         when(view?.id) {
-            R.id.mobile_ll -> onMobileClicked()
-            R.id.email_ll -> onEmailClicked()
-            R.id.linkedin_ll -> onLinkedInClicked()
-            R.id.github_ll -> onGithubClicked()
-            R.id.resume_ll -> onResumeClicked()
+            R.id.mobile_contact -> onPhoneClicked()
+            R.id.email_contact -> onEmailContactClicked()
+            R.id.linkedin_contact -> onLinkedInContactClicked()
+            R.id.github_contact -> onGithubContactClicked()
+            R.id.resume_contact -> onResumeClicked()
         }
     }
 

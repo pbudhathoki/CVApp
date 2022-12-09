@@ -1,14 +1,14 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color blue_500
 color dark_gray
 color light_gray
 color purple_200
-color purple_500
-color purple_700
 color teal_200
 color teal_700
 color white
+color yellow_700
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
 drawable coverpic
@@ -30,24 +30,24 @@ id college_name_text_view
 id company_name_text_view
 id duration_text_view
 id education_recycler_view
+id email_contact
 id email_edit_text
-id email_ll
 id floating_add_button
 id fragmentContainerView2
-id github_ll
+id github_contact
 id gmail_menu
 id linked_in_menu
-id linkedin_ll
+id linkedin_contact
 id location_text_view
 id login_button
 id logo_image_view
-id mobile_ll
+id mobile_contact
 id name_position
 id password_edit_text
 id photo_section
 id profile_image
 id program_name_text_view
-id resume_ll
+id resume_contact
 id roles_text_view
 id tab_layout
 id telegram_menu
@@ -64,7 +64,7 @@ layout fragment_contact
 layout fragment_home
 layout fragment_main
 layout fragment_work
-layout item_certification
+layout item_achievment
 layout item_education
 layout item_work
 menu menu

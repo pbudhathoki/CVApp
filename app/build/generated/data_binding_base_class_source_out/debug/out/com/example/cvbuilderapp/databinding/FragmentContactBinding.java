@@ -19,29 +19,29 @@ public final class FragmentContactBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final LinearLayout emailLl;
+  public final LinearLayout emailContact;
 
   @NonNull
-  public final LinearLayout githubLl;
+  public final LinearLayout githubContact;
 
   @NonNull
-  public final LinearLayout linkedinLl;
+  public final LinearLayout linkedinContact;
 
   @NonNull
-  public final LinearLayout mobileLl;
+  public final LinearLayout mobileContact;
 
   @NonNull
-  public final LinearLayout resumeLl;
+  public final LinearLayout resumeContact;
 
-  private FragmentContactBinding(@NonNull LinearLayout rootView, @NonNull LinearLayout emailLl,
-      @NonNull LinearLayout githubLl, @NonNull LinearLayout linkedinLl,
-      @NonNull LinearLayout mobileLl, @NonNull LinearLayout resumeLl) {
+  private FragmentContactBinding(@NonNull LinearLayout rootView, @NonNull LinearLayout emailContact,
+      @NonNull LinearLayout githubContact, @NonNull LinearLayout linkedinContact,
+      @NonNull LinearLayout mobileContact, @NonNull LinearLayout resumeContact) {
     this.rootView = rootView;
-    this.emailLl = emailLl;
-    this.githubLl = githubLl;
-    this.linkedinLl = linkedinLl;
-    this.mobileLl = mobileLl;
-    this.resumeLl = resumeLl;
+    this.emailContact = emailContact;
+    this.githubContact = githubContact;
+    this.linkedinContact = linkedinContact;
+    this.mobileContact = mobileContact;
+    this.resumeContact = resumeContact;
   }
 
   @Override
@@ -71,38 +71,38 @@ public final class FragmentContactBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.email_ll;
-      LinearLayout emailLl = ViewBindings.findChildViewById(rootView, id);
-      if (emailLl == null) {
+      id = R.id.email_contact;
+      LinearLayout emailContact = ViewBindings.findChildViewById(rootView, id);
+      if (emailContact == null) {
         break missingId;
       }
 
-      id = R.id.github_ll;
-      LinearLayout githubLl = ViewBindings.findChildViewById(rootView, id);
-      if (githubLl == null) {
+      id = R.id.github_contact;
+      LinearLayout githubContact = ViewBindings.findChildViewById(rootView, id);
+      if (githubContact == null) {
         break missingId;
       }
 
-      id = R.id.linkedin_ll;
-      LinearLayout linkedinLl = ViewBindings.findChildViewById(rootView, id);
-      if (linkedinLl == null) {
+      id = R.id.linkedin_contact;
+      LinearLayout linkedinContact = ViewBindings.findChildViewById(rootView, id);
+      if (linkedinContact == null) {
         break missingId;
       }
 
-      id = R.id.mobile_ll;
-      LinearLayout mobileLl = ViewBindings.findChildViewById(rootView, id);
-      if (mobileLl == null) {
+      id = R.id.mobile_contact;
+      LinearLayout mobileContact = ViewBindings.findChildViewById(rootView, id);
+      if (mobileContact == null) {
         break missingId;
       }
 
-      id = R.id.resume_ll;
-      LinearLayout resumeLl = ViewBindings.findChildViewById(rootView, id);
-      if (resumeLl == null) {
+      id = R.id.resume_contact;
+      LinearLayout resumeContact = ViewBindings.findChildViewById(rootView, id);
+      if (resumeContact == null) {
         break missingId;
       }
 
-      return new FragmentContactBinding((LinearLayout) rootView, emailLl, githubLl, linkedinLl,
-          mobileLl, resumeLl);
+      return new FragmentContactBinding((LinearLayout) rootView, emailContact, githubContact,
+          linkedinContact, mobileContact, resumeContact);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

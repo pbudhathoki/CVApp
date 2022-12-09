@@ -8,7 +8,7 @@
     <string name="work">Work</string>
     <string name="contact">Contact</string>
 
-    <string name="cv">CV</string>
+    <string name="cv">CVPuskar</string>
 
     <string name="add">Add</string>
 
@@ -49,16 +49,20 @@
     <string name="login_failed">"Login failed"</string>
 
     <string name="login">login</string>
-    <string name="enter_email">Enter your email here…</string>
-    <string name="enter_password">Enter your password here…</string>
+    <string name="enter_email">Enter your username…</string>
+    <string name="enter_password">Enter your password…</string>
 
     <string name="information_to_share">
-        Name: Puskar Budhathoki
+        Description: I am a full-stack developer having 9 years of experience in different business domains like manufacturing, distribution business, and automobile industries.
+I have a strong technical background in C#/.NET, and relational databases like MySQL, SQL Server, AWS cloud, React, HTML, CSS, WebAPI etc.
+        I looking for a full-time role under W-2.
+        Regards,
+        Puskar Budhathoki
         LinkedIn Profile: https://www.linkedin.com/in/puskar-budhathoki/
     </string>
 
     <string name="email">pbudhathoki@miu.edu</string>
-    <string name="linkedin_profile">https://www.linkedin.com/in/puskar-budhathoki/</string>
+    <string name="linkedin_profile">https://www.linkedin.com/in/puskar-budhathoki</string>
     <string name="github_profile">https://github.com/pbudhathoki</string>
 
 </resources>

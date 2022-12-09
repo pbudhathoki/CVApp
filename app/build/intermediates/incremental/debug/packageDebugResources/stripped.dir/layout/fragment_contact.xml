@@ -26,7 +26,7 @@
                 android:textSize="20sp" />
 
             <LinearLayout
-                android:id="@+id/mobile_ll"
+                android:id="@+id/mobile_contact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -63,7 +63,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/email_ll"
+                android:id="@+id/email_contact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -100,7 +100,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linkedin_ll"
+                android:id="@+id/linkedin_contact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -123,7 +123,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
                         android:textColor="@color/black"
-                        android:text="https://www.linkedin.com/in/puskar-budhathoki/"/>
+                        android:text="https://www.linkedin.com/in/puskar-budhathoki"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -137,7 +137,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/github_ll"
+                android:id="@+id/github_contact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -174,7 +174,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/resume_ll"
+                android:id="@+id/resume_contact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"

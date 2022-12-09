@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="blue_500">#122174</color>
     <color name="dark_gray">#727372</color>
     <color name="light_gray">#BDC1BD</color>
     <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow_700">#FFC107</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="Achievement">Achievement</string>
@@ -22,23 +22,27 @@
     <string name="career_note_desc"><b>Completed</b> on-campus studies and currently taking distance education courses to complete a Master\'s Degree in Computer Science (Available for full-time <b>W2</b> employment).</string>
     <string name="contact">Contact</string>
     <string name="cover_photo">Cover Photo</string>
-    <string name="cv">CV</string>
+    <string name="cv">CVPuskar</string>
     <string name="education">Education</string>
     <string name="email">pbudhathoki@miu.edu</string>
-    <string name="enter_email">Enter your email here…</string>
-    <string name="enter_password">Enter your password here…</string>
+    <string name="enter_email">Enter your username…</string>
+    <string name="enter_password">Enter your password…</string>
     <string name="github_profile">https://github.com/pbudhathoki</string>
     <string name="gmail">Gmail</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
     <string name="information_to_share">
-        Name: Puskar Budhathoki
+        Description: I am a full-stack developer having 9 years of experience in different business domains like manufacturing, distribution business, and automobile industries.
+I have a strong technical background in C#/.NET, and relational databases like MySQL, SQL Server, AWS cloud, React, HTML, CSS, WebAPI etc.
+        I looking for a full-time role under W-2.
+        Regards,
+        Puskar Budhathoki
         LinkedIn Profile: https://www.linkedin.com/in/puskar-budhathoki/
     </string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="linkedin">LinkedIn</string>
-    <string name="linkedin_profile">https://www.linkedin.com/in/puskar-budhathoki/</string>
+    <string name="linkedin_profile">https://www.linkedin.com/in/puskar-budhathoki</string>
     <string name="login">login</string>
     <string name="login_failed">"Login failed"</string>
     <string name="my_college">My College</string>
@@ -61,8 +65,8 @@
         \n</string>
     <style name="Theme.CVBuilderApplicationAssignment6" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryVariant">@color/yellow_700</item>
         <item name="colorOnPrimary">@color/white</item>
         
         <item name="colorSecondary">@color/teal_200</item>
