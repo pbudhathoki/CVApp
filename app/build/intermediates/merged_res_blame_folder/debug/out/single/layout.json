@@ -24,12 +24,20 @@
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\fragment_home.xml"
     },
     {
+        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-mergeDebugResources-35:\\layout\\item_study.xml",
+        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\item_study.xml"
+    },
+    {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-mergeDebugResources-35:\\layout\\fragment_work.xml",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\fragment_work.xml"
     },
     {
-        "merged": "com.example.cvbuilderapp-mergeDebugResources-35:/layout/item_study.xml",
-        "source": "com.example.cvbuilderapp-main-38:/layout/item_study.xml"
+        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-mergeDebugResources-35:\\layout\\fragment_profexp.xml",
+        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\fragment_profexp.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapp-mergeDebugResources-35:/layout/activity_login.xml",
+        "source": "com.example.cvbuilderapp-main-38:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-mergeDebugResources-35:\\layout\\item_education.xml",

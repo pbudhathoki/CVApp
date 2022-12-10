@@ -24,7 +24,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.CVBuilderApplicationAssignment6" >
+        android:theme="@style/Theme.CVBuilderApp" >
         <activity
             android:name="com.example.cvbuilderapp.WebActivity"
             android:exported="false" >

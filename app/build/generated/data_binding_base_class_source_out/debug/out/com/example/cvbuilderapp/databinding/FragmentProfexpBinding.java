@@ -15,14 +15,14 @@ import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
-public final class FragmentWorkBinding implements ViewBinding {
+public final class FragmentProfexpBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
   @NonNull
   public final RecyclerView workRecyclerView;
 
-  private FragmentWorkBinding(@NonNull LinearLayout rootView,
+  private FragmentProfexpBinding(@NonNull LinearLayout rootView,
       @NonNull RecyclerView workRecyclerView) {
     this.rootView = rootView;
     this.workRecyclerView = workRecyclerView;
@@ -35,14 +35,14 @@ public final class FragmentWorkBinding implements ViewBinding {
   }
 
   @NonNull
-  public static FragmentWorkBinding inflate(@NonNull LayoutInflater inflater) {
+  public static FragmentProfexpBinding inflate(@NonNull LayoutInflater inflater) {
     return inflate(inflater, null, false);
   }
 
   @NonNull
-  public static FragmentWorkBinding inflate(@NonNull LayoutInflater inflater,
+  public static FragmentProfexpBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup parent, boolean attachToParent) {
-    View root = inflater.inflate(R.layout.fragment_work, parent, false);
+    View root = inflater.inflate(R.layout.fragment_profexp, parent, false);
     if (attachToParent) {
       parent.addView(root);
     }
@@ -50,7 +50,7 @@ public final class FragmentWorkBinding implements ViewBinding {
   }
 
   @NonNull
-  public static FragmentWorkBinding bind(@NonNull View rootView) {
+  public static FragmentProfexpBinding bind(@NonNull View rootView) {
     // The body of this method is generated in a way you would not otherwise write.
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
@@ -61,7 +61,7 @@ public final class FragmentWorkBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentWorkBinding((LinearLayout) rootView, workRecyclerView);
+      return new FragmentProfexpBinding((LinearLayout) rootView, workRecyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

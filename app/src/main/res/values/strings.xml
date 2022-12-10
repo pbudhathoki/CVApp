@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CVBuilderApplicationAssignment6</string>
+    <string name="app_name">CVBuilderApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -23,8 +23,8 @@
 
     <string name="career_note">Career Note</string>
     <string name="career_note_desc"><b>Completed</b> on-campus studies and currently taking distance Study courses to complete a Master\'s Degree in Computer Science (Available for full-time <b>W2</b> employment).</string>
-    <string name="work_experience">Work Experience</string>
-    <string name="work_experience_desc"><b>Language: </b>.NET/C#, Java, JavaScript \n<b>Frameworks/web: </b>.NET/Core, Spring, Hibernate\n<b>Microservices/Cloud: </b>Docker,Kafka/AWS \n<b>Databases: </b>SQL Server, PostgreSQL, MySQL, DynamoDB \n<b>Tools: </b>Microsoft Visual Studio, VS Code, IntelliJ, Eclipse Maven, Git, GitHub, Postman, Docker, JIRA, StarUML \n
+    <string name="prof_work_experience">Professional Work Experience</string>
+    <string name="prof_work_experience_desc"><b>Language: </b>.NET/C#, Java, JavaScript \n<b>Frameworks/web: </b>.NET/Core, Spring, Hibernate\n<b>Microservices/Cloud: </b>Docker,Kafka/AWS \n<b>Databases: </b>SQL Server, PostgreSQL, MySQL, DynamoDB \n<b>Tools: </b>Microsoft Visual Studio, VS Code, IntelliJ, Eclipse Maven, Git, GitHub, Postman, Docker, JIRA, StarUML \n
         <b>Web and Application Servers: </b>IIS, Tomcat, Apache \n
         <b>Design Patterns: </b>MVC, Factory Method, Façade, Singleton, Observer, Strategy, Adapter, Template \n
         <b>SDLC: </b>Waterfall, Agile/Scrum \n
@@ -39,7 +39,7 @@
 
     <string name="my_contacts">My Contacts</string>
     <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -49,10 +49,10 @@
     <string name="login_failed">"Login failed"</string>
 
     <string name="login">login</string>
-    <string name="enter_email">Enter your username…</string>
+    <string name="enter_username">Enter your username…</string>
     <string name="enter_password">Enter your password…</string>
 
-    <string name="information_to_share">
+    <string name="prof_info_to_share">
         Description: I am a full-stack developer having 9 years of experience in different business domains like manufacturing, distribution business, and automobile industries.
 I have a strong technical background in C#/.NET, and relational databases like MySQL, SQL Server, AWS cloud, React, HTML, CSS, WebAPI etc.
         I looking for a full-time role under W-2.

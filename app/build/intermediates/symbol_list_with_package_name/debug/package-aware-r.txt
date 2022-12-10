@@ -3015,6 +3015,7 @@ id pin
 id position
 id postLayout
 id pressed
+id prof_work_experience
 id profile_image
 id progress_circular
 id progress_horizontal
@@ -3161,7 +3162,6 @@ id whats_app_menu
 id withText
 id with_icon
 id withinBounds
-id work_experience
 id work_recycler_view
 id wrap
 id wrap_content
@@ -3313,7 +3313,7 @@ layout fragment_about_me
 layout fragment_contact
 layout fragment_home
 layout fragment_main
-layout fragment_work
+layout fragment_profexp
 layout item_achievment
 layout item_study
 layout item_work
@@ -3432,8 +3432,8 @@ string contact
 string cover_photo
 string cv
 string email
-string enter_email
 string enter_password
+string enter_username
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3445,7 +3445,6 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string home
 string icon_content_description
-string information_to_share
 string invalid_password
 string invalid_username
 string item_view_role_description
@@ -3549,8 +3548,11 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string position
-string prompt_email
+string prof_info_to_share
+string prof_work_experience
+string prof_work_experience_desc
 string prompt_password
+string prompt_username
 string search_menu_title
 string status_bar_notification_info_overflow
 string telegram
@@ -3558,8 +3560,6 @@ string title_activity_login
 string welcome
 string whatsapp
 string work
-string work_experience
-string work_experience_desc
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -4067,7 +4067,7 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
-style Theme_CVBuilderApplicationAssignment6
+style Theme_CVBuilderApp
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light

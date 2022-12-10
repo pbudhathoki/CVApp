@@ -35,22 +35,22 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final RelativeLayout photoSection;
 
   @NonNull
-  public final CircleImageView profileImage;
+  public final CardView profWorkExperience;
 
   @NonNull
-  public final CardView workExperience;
+  public final CircleImageView profileImage;
 
   private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull CardView careerNote,
       @NonNull FloatingActionButton floatingAddButton, @NonNull LinearLayout namePosition,
-      @NonNull RelativeLayout photoSection, @NonNull CircleImageView profileImage,
-      @NonNull CardView workExperience) {
+      @NonNull RelativeLayout photoSection, @NonNull CardView profWorkExperience,
+      @NonNull CircleImageView profileImage) {
     this.rootView = rootView;
     this.careerNote = careerNote;
     this.floatingAddButton = floatingAddButton;
     this.namePosition = namePosition;
     this.photoSection = photoSection;
+    this.profWorkExperience = profWorkExperience;
     this.profileImage = profileImage;
-    this.workExperience = workExperience;
   }
 
   @Override
@@ -104,20 +104,20 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.prof_work_experience;
+      CardView profWorkExperience = ViewBindings.findChildViewById(rootView, id);
+      if (profWorkExperience == null) {
+        break missingId;
+      }
+
       id = R.id.profile_image;
       CircleImageView profileImage = ViewBindings.findChildViewById(rootView, id);
       if (profileImage == null) {
         break missingId;
       }
 
-      id = R.id.work_experience;
-      CardView workExperience = ViewBindings.findChildViewById(rootView, id);
-      if (workExperience == null) {
-        break missingId;
-      }
-
       return new FragmentHomeBinding((RelativeLayout) rootView, careerNote, floatingAddButton,
-          namePosition, photoSection, profileImage, workExperience);
+          namePosition, photoSection, profWorkExperience, profileImage);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

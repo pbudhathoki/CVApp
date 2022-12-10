@@ -125,7 +125,7 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\puska\.gradle\caches\t
 	android:allowBackup
 		ADDED from C:\Users\puska\OneDrive\Desktop\CVBuilder\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\puska\OneDrive\Desktop\CVBuilder\app\src\main\AndroidManifest.xml:19:9-69
+		ADDED from C:\Users\puska\OneDrive\Desktop\CVBuilder\app\src\main\AndroidManifest.xml:19:9-50
 	android:dataExtractionRules
 		ADDED from C:\Users\puska\OneDrive\Desktop\CVBuilder\app\src\main\AndroidManifest.xml:13:9-65
 activity#com.example.cvbuilderapp.WebActivity

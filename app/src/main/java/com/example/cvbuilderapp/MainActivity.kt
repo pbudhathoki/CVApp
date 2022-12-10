@@ -27,19 +27,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onTelegramMenuSelected() {
-        shareResume(getString(R.string.information_to_share), "org.telegram.messenger")
+        shareResume(getString(R.string.prof_info_to_share), "org.telegram.messenger")
     }
 
     private fun onLinkedInMenuSelected() {
-        shareResume(getString(R.string.information_to_share), "com.linkedin.android")
+        shareResume(getString(R.string.prof_info_to_share), "com.linkedin.android")
     }
 
     private fun onWhatsAppMenuSelected() {
-        shareResume(getString(R.string.information_to_share), "com.whatsapp")
+        shareResume(getString(R.string.prof_info_to_share), "com.whatsapp")
     }
 
     private fun onGmailMenuSelected() {
-        shareResume(getString(R.string.information_to_share), "com.google.android.gm")
+        shareResume(getString(R.string.prof_info_to_share), "com.google.android.gm")
     }
 
     private fun shareResume(msg: String, appName: String) {

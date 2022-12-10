@@ -9,7 +9,7 @@ data class Work(
     val roles: String
 ) {
     companion object {
-        fun getWorkList() : MutableList<Work> {
+        fun getProfessionalExperienceList() : MutableList<Work> {
             return mutableListOf(
                 Work(
                     "MiSUMi Group Inc.",

@@ -4,28 +4,28 @@
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\drawable_ic_call.jpg.flat",
-        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\drawable\\ic_call.jpg"
+        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\drawable\\ic_add.xml"
     },
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\drawable_ic_add.xml.flat",
-        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\drawable\\ic_add.xml"
+        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\drawable_ic_call.jpg.flat",
+        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\drawable\\ic_call.jpg"
     },
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\menu_menu.xml.flat",
@@ -34,6 +34,10 @@
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\layout_item_study.xml.flat",
+        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\item_study.xml"
     },
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -56,16 +60,16 @@
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\layout_fragment_profexp.xml.flat",
+        "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\fragment_profexp.xml"
+    },
+    {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.cvbuilderapp-merged_res-36:/layout_item_study.xml.flat",
-        "source": "com.example.cvbuilderapp-main-38:/layout/item_study.xml"
     },
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -158,5 +162,9 @@
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-merged_res-36:\\layout_fragment_work.xml.flat",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\fragment_work.xml"
+    },
+    {
+        "merged": "com.example.cvbuilderapp-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.example.cvbuilderapp-main-38:/layout/activity_login.xml"
     }
 ]

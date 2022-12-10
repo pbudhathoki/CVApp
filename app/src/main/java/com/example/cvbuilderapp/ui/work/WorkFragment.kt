@@ -7,13 +7,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.cvbuilderapp.R
 import com.example.cvbuilderapp.data.Work
 
-class WorkFragment : Fragment(R.layout.fragment_work) {
+class WorkFragment : Fragment(R.layout.fragment_profexp) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         val workRecyclerView: RecyclerView = view.findViewById(R.id.work_recycler_view)
-        val adapter = WorkAdapter(Work.getWorkList())
+        val adapter = WorkAdapter(Work.getProfessionalExperienceList())
         workRecyclerView.adapter = adapter
     }
 
