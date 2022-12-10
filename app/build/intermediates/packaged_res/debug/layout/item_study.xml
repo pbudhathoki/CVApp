@@ -23,7 +23,7 @@
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/college_name_text_view"
+            android:id="@+id/uni_name_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="@string/my_college"
@@ -32,7 +32,7 @@
             android:paddingHorizontal="10dp"/>
 
         <TextView
-            android:id="@+id/program_name_text_view"
+            android:id="@+id/dept_name_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="@string/my_college"

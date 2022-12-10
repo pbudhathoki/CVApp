@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:paddingBottom="5dp"
-                    android:text="@string/education"
+                    android:text="@string/Study"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -77,7 +77,7 @@
                     android:textSize="16sp" />
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/education_recycler_view"
+                    android:id="@+id/Study_recycler_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"

@@ -12,6 +12,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="Achievement">Achievement</string>
+    <string name="Study">Study</string>
     <string name="about_me">About Me</string>
     <string name="about_me_desc"><b>Diligent Software Engineer</b> with 9 years of professional IT experience including latest 6 years of experience streamlining frontend and backend development for complex software systems. Proven experience contributing to all phases of software development life cycle including design, testing, debugging, implementation, and academic knowledge of Java. Adept and personable communicator with experience leading technical and cross-functional teams. Skilled in using technologies such as .NET, C#, MySQL, SQL Server, RESTful Web Services, and AWS Cloud.</string>
     <string name="action_sign_in">Sign in or register</string>
@@ -19,11 +20,10 @@
     <string name="add">Add</string>
     <string name="app_name">CVBuilderApplicationAssignment6</string>
     <string name="career_note">Career Note</string>
-    <string name="career_note_desc"><b>Completed</b> on-campus studies and currently taking distance education courses to complete a Master\'s Degree in Computer Science (Available for full-time <b>W2</b> employment).</string>
+    <string name="career_note_desc"><b>Completed</b> on-campus studies and currently taking distance Study courses to complete a Master\'s Degree in Computer Science (Available for full-time <b>W2</b> employment).</string>
     <string name="contact">Contact</string>
     <string name="cover_photo">Cover Photo</string>
     <string name="cv">CVPuskar</string>
-    <string name="education">Education</string>
     <string name="email">pbudhathoki@miu.edu</string>
     <string name="enter_email">Enter your username…</string>
     <string name="enter_password">Enter your password…</string>

@@ -23,13 +23,13 @@ public final class FragmentAboutMeBinding implements ViewBinding {
   public final RecyclerView AchievementRecyclerView;
 
   @NonNull
-  public final RecyclerView educationRecyclerView;
+  public final RecyclerView StudyRecyclerView;
 
   private FragmentAboutMeBinding(@NonNull NestedScrollView rootView,
-      @NonNull RecyclerView AchievementRecyclerView, @NonNull RecyclerView educationRecyclerView) {
+      @NonNull RecyclerView AchievementRecyclerView, @NonNull RecyclerView StudyRecyclerView) {
     this.rootView = rootView;
     this.AchievementRecyclerView = AchievementRecyclerView;
-    this.educationRecyclerView = educationRecyclerView;
+    this.StudyRecyclerView = StudyRecyclerView;
   }
 
   @Override
@@ -65,14 +65,14 @@ public final class FragmentAboutMeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.education_recycler_view;
-      RecyclerView educationRecyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (educationRecyclerView == null) {
+      id = R.id.Study_recycler_view;
+      RecyclerView StudyRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (StudyRecyclerView == null) {
         break missingId;
       }
 
       return new FragmentAboutMeBinding((NestedScrollView) rootView, AchievementRecyclerView,
-          educationRecyclerView);
+          StudyRecyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

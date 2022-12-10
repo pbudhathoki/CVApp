@@ -6,27 +6,27 @@ import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cvbuilderapp.R
 import com.example.cvbuilderapp.data.Achievement
-import com.example.cvbuilderapp.data.Education
+import com.example.cvbuilderapp.data.Study
 
 class AboutMeFragment : Fragment(R.layout.fragment_about_me) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        initEducation(view)
+        initStudy(view)
         initAchievement(view)
     }
 
-    private fun initEducation(view: View) {
-        val educationRecyclerView = view.findViewById<RecyclerView>(R.id.education_recycler_view)
-        val adapter = EducationAdapter(Education.getEducationList())
-        educationRecyclerView.adapter = adapter
+    private fun initStudy(view: View) {
+        val StudyRecyclerView = view.findViewById<RecyclerView>(R.id.Study_recycler_view)
+        val adapter = StudyAdapter(Study.getStudyList())
+        StudyRecyclerView.adapter = adapter
     }
 
     private fun initAchievement(view: View) {
-        val AchievementRecycler = view.findViewById<RecyclerView>(R.id.Achievement_recycler_view)
+        val achievementRecycler = view.findViewById<RecyclerView>(R.id.Achievement_recycler_view)
         val adapter = AchievementAdapter(Achievement.getAchievementList())
-        AchievementRecycler.adapter = adapter
+        achievementRecycler.adapter = adapter
     }
 
     companion object {

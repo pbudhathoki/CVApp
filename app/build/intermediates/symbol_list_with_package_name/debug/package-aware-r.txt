@@ -2671,6 +2671,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Study_recycler_view
 id TOP_END
 id TOP_START
 id accelerate
@@ -2782,7 +2783,6 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
-id college_name_text_view
 id company_name_text_view
 id compress
 id confirm_button
@@ -2807,6 +2807,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id dept_name_text_view
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2835,7 +2836,6 @@ id easeInOut
 id easeOut
 id east
 id edit_query
-id education_recycler_view
 id elastic
 id email_contact
 id email_edit_text
@@ -3016,7 +3016,6 @@ id position
 id postLayout
 id pressed
 id profile_image
-id program_name_text_view
 id progress_circular
 id progress_horizontal
 id radio
@@ -3141,6 +3140,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id unchecked
+id uni_name_text_view
 id uniform
 id unlabeled
 id up
@@ -3315,7 +3315,7 @@ layout fragment_home
 layout fragment_main
 layout fragment_work
 layout item_achievment
-layout item_education
+layout item_study
 layout item_work
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3380,6 +3380,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string Achievement
+string Study
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3430,7 +3431,6 @@ string clear_text_end_icon_content_description
 string contact
 string cover_photo
 string cv
-string education
 string email
 string enter_email
 string enter_password

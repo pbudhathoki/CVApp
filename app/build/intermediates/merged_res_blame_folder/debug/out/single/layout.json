@@ -28,16 +28,16 @@
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\fragment_work.xml"
     },
     {
+        "merged": "com.example.cvbuilderapp-mergeDebugResources-35:/layout/item_study.xml",
+        "source": "com.example.cvbuilderapp-main-38:/layout/item_study.xml"
+    },
+    {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-mergeDebugResources-35:\\layout\\item_education.xml",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\item_education.xml"
     },
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-mergeDebugResources-35:\\layout\\fragment_about_me.xml",
         "source": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-main-38:\\layout\\fragment_about_me.xml"
-    },
-    {
-        "merged": "com.example.cvbuilderapp-mergeDebugResources-35:/layout/fragment_contact.xml",
-        "source": "com.example.cvbuilderapp-main-38:/layout/fragment_contact.xml"
     },
     {
         "merged": "C:\\Users\\puska\\.gradle\\daemon\\7.4\\com.example.cvbuilderapp-mergeDebugResources-35:\\layout\\item_achievment.xml",

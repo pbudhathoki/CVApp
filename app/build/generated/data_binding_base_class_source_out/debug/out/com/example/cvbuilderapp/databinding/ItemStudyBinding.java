@@ -16,26 +16,25 @@ import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
-public final class ItemEducationBinding implements ViewBinding {
+public final class ItemStudyBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView collegeNameTextView;
+  public final TextView deptNameTextView;
 
   @NonNull
   public final ImageView logoImageView;
 
   @NonNull
-  public final TextView programNameTextView;
+  public final TextView uniNameTextView;
 
-  private ItemEducationBinding(@NonNull LinearLayout rootView,
-      @NonNull TextView collegeNameTextView, @NonNull ImageView logoImageView,
-      @NonNull TextView programNameTextView) {
+  private ItemStudyBinding(@NonNull LinearLayout rootView, @NonNull TextView deptNameTextView,
+      @NonNull ImageView logoImageView, @NonNull TextView uniNameTextView) {
     this.rootView = rootView;
-    this.collegeNameTextView = collegeNameTextView;
+    this.deptNameTextView = deptNameTextView;
     this.logoImageView = logoImageView;
-    this.programNameTextView = programNameTextView;
+    this.uniNameTextView = uniNameTextView;
   }
 
   @Override
@@ -45,14 +44,14 @@ public final class ItemEducationBinding implements ViewBinding {
   }
 
   @NonNull
-  public static ItemEducationBinding inflate(@NonNull LayoutInflater inflater) {
+  public static ItemStudyBinding inflate(@NonNull LayoutInflater inflater) {
     return inflate(inflater, null, false);
   }
 
   @NonNull
-  public static ItemEducationBinding inflate(@NonNull LayoutInflater inflater,
+  public static ItemStudyBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup parent, boolean attachToParent) {
-    View root = inflater.inflate(R.layout.item_education, parent, false);
+    View root = inflater.inflate(R.layout.item_study, parent, false);
     if (attachToParent) {
       parent.addView(root);
     }
@@ -60,14 +59,14 @@ public final class ItemEducationBinding implements ViewBinding {
   }
 
   @NonNull
-  public static ItemEducationBinding bind(@NonNull View rootView) {
+  public static ItemStudyBinding bind(@NonNull View rootView) {
     // The body of this method is generated in a way you would not otherwise write.
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.college_name_text_view;
-      TextView collegeNameTextView = ViewBindings.findChildViewById(rootView, id);
-      if (collegeNameTextView == null) {
+      id = R.id.dept_name_text_view;
+      TextView deptNameTextView = ViewBindings.findChildViewById(rootView, id);
+      if (deptNameTextView == null) {
         break missingId;
       }
 
@@ -77,14 +76,14 @@ public final class ItemEducationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.program_name_text_view;
-      TextView programNameTextView = ViewBindings.findChildViewById(rootView, id);
-      if (programNameTextView == null) {
+      id = R.id.uni_name_text_view;
+      TextView uniNameTextView = ViewBindings.findChildViewById(rootView, id);
+      if (uniNameTextView == null) {
         break missingId;
       }
 
-      return new ItemEducationBinding((LinearLayout) rootView, collegeNameTextView, logoImageView,
-          programNameTextView);
+      return new ItemStudyBinding((LinearLayout) rootView, deptNameTextView, logoImageView,
+          uniNameTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
